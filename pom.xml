@@ -56,11 +56,6 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <version>${ojdbc.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>eclipselink</artifactId>
             <version>${eclipselink.version}</version>
@@ -150,23 +145,6 @@
                                             <type>zip</type>
                                             <overWrite>false</overWrite>
                                             <outputDirectory>${project.build.directory}</outputDirectory>
-                                        </artifactItem>
-                                    </artifactItems>
-                                </configuration>
-                            </execution>
-                            <execution>
-                                <id>copy-db-driver</id>
-                                <phase>process-test-resources</phase>
-                                <goals>
-                                    <goal>copy</goal>
-                                </goals>
-                                <configuration>
-                                    <artifactItems>
-                                        <artifactItem>
-                                            <groupId>com.oracle</groupId>
-                                            <artifactId>ojdbc6</artifactId>
-                                            <version>${ojdbc.version}</version>
-                                            <outputDirectory>${project.build.directory}/wildfly-${wildfly.version}/standalone/deployments</outputDirectory>
                                         </artifactItem>
                                     </artifactItems>
                                 </configuration>
