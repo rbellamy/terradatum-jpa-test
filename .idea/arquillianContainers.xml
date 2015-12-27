@@ -7,7 +7,6 @@
       <exist-library name="Maven: org.wildfly.arquillian:wildfly-arquillian-protocol-jmx:1.0.2.Final" level="project" />
       <exist-library name="Maven: org.wildfly.arquillian:wildfly-arquillian-testenricher-msc:1.0.2.Final" level="project" />
       <exist-library name="Maven: com.google.guava:guava:18.0" level="project" />
-      <exist-library name="Maven: com.oracle:ojdbc6:11.2.0.3.0-1" level="project" />
       <exist-library name="Maven: com.sun.mail:javax.mail:1.5.1" level="project" />
       <exist-library name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
       <exist-library name="Maven: commons-io:commons-io:2.2" level="project" />
