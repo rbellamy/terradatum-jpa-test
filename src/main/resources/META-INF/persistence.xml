@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="testUnit">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <!--jta-data-source>java:jboss/datasources/TestDS</jta-data-source-->
+        <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <properties>
+            <property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+            <property name="eclipselink.create-ddl-jdbc-file-name" value="createDDL_ddlGeneration.jdbc"/>
+            <property name="eclipselink.drop-ddl-jdbc-file-name" value="dropDDL_ddlGeneration.jdbc"/>
+            <property name="eclipselink.ddl-generation.output-mode" value="both"/>
+        </properties>
+    </persistence-unit>
+</persistence>

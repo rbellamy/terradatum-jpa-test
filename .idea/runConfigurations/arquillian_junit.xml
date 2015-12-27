@@ -1,0 +1,35 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="arquillian junit" type="ArquillianJUnit" factoryName="">
+    <log_file path="$PROJECT_DIR$/target/wildfly-9.0.2.Final/standalone/log/server.log" checked="true" skipped="true" show_all="false" alias="WildFly 9 Server Log" />
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <module name="" />
+    <option name="arquillianRunConfiguration">
+      <value>
+        <option name="containerStateName" value="WildFly 9 Managed" />
+      </value>
+    </option>
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="JDK 1.8" />
+    <option name="PACKAGE_NAME" value="com.terradatum" />
+    <option name="MAIN_CLASS_NAME" value="" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="package" />
+    <option name="VM_PARAMETERS" value="" />
+    <option name="PARAMETERS" value="" />
+    <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+    <option name="ENV_VARIABLES" />
+    <option name="PASS_PARENT_ENVS" value="true" />
+    <option name="TEST_SEARCH_SCOPE">
+      <value defaultName="wholeProject" />
+    </option>
+    <envs />
+    <patterns />
+    <RunnerSettings RunnerId="JProfiler">
+      <option name="WINDOW" value="false" />
+    </RunnerSettings>
+    <method>
+      <option name="Make" enabled="false" />
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="compile test-compile process-test-classes" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="terradatum-jpa-test:ejb">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="terradatum-jpa-test-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="terradatum-jpa-test:ejb exploded" />
+    </root>
+  </artifact>
+</component>

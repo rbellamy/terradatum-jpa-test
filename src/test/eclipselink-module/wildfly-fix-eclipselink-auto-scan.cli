@@ -1,0 +1,5 @@
+connect
+
+/system-property=eclipselink.archive.factory:add(value=org.jipijapa.eclipselink.JBossArchiveFactoryImpl)
+
+reload
